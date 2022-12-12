@@ -1,0 +1,12 @@
+[{
+    "id":1,
+    "name":"Ali",
+    "FatherName":"Habib"
+},
+{
+  "id": 2,
+  "name": "Ahmed",
+  "FatherName": "Kamran"
+}
+
+]
