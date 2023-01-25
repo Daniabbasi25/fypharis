@@ -5,6 +5,7 @@ import HomeScreen from '../screens/Home';
 import AddBaby from '../screens/AddBaby';
 import BabyList from '../screens/BabyList';
 import TrackListScreen from '../screens/TrackListScreen';
+import VideoPlayerScreen from '../screens/VideoPlayerScreen';
 const Stack = createNativeStackNavigator();
 const MainStack = () => {
   return (
@@ -39,6 +40,15 @@ const MainStack = () => {
       <Stack.Screen
         name="TrackList"
         component={TrackListScreen}
+        options={{
+          headerShown: true,
+          headerBackVisible: true,
+          headerTitleAlign: 'center',
+        }}
+      />
+      <Stack.Screen
+        name="VideoPlayer"
+        component={VideoPlayerScreen}
         options={{
           headerShown: true,
           headerBackVisible: true,

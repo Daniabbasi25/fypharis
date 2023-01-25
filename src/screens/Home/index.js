@@ -76,10 +76,11 @@ const HomeScreen = ({navigation}) => {
             padding: 40,
             backgroundColor: '#52B6DF',
             borderRadius: 10,
-          }}>
+          }}
+          onPress={() => navigation.navigate('VideoPlayer')}>
           {/* plus */}
           <SettingIcon name="setting" size={30} color="#fff" />
-          <Text>Setting</Text>
+          <Text>VIdeo Player</Text>
         </TouchableOpacity>
       </View>
     </View>
